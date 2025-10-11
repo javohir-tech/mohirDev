@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="box">
+        <div>
+            <h1>Job Application</h1>
+            <h4>Please complete the form below to apply for a position with us.</h4>
+        </div>
+        <hr>
+        <form action="">
+            <div>
+                <p>Full Name</p>
+                <div style="display: flex; gap: 10px;">
+                    <div class="input">
+                        <input type="text" name="name">
+                        <label for="name">First Name</label>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="middle">
+                        <label for="middle">Middle Name</label>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="last">
+                        <label for="last">Last Name</label>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top: 30px;">
+                <p>Body Size</p>
+                <div style="display: flex; gap: 10px;">
+                    <div class="input">
+                        <input type="text" name="height" placeholder="sm">
+                        <label for="height">Height</label>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="weight" placeholder="kg">
+                        <label for="weight">Weight</label>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
 </body>
+
 </html>
